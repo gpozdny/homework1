@@ -1,10 +1,12 @@
+a.main__btn(href="#") Авторизоваться
 .main
-    .main__ava
-        .main__ava-info
-            span.info__name.
-                #{name}
-            span.info__occup Личный сайт веб разработчика
-    .main__links
+    .main__top
+        .main__top-ava
+        span.top_name.
+            #{name}
+
+        span.top__occup Личный сайт веб разработчика
         include ../sections/links
-    .main__nav
+    .main__bot
+        include ../sections/nav
 
